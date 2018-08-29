@@ -1,5 +1,7 @@
 <?php
 
+	require_once('TabelaContatos.php');
+
 	$listaContatos = [];
 	$erros = [];
 
@@ -39,7 +41,7 @@
 
 
     // PENDENTE: Consultar os contatos inseridos no banco de dados
-	// $listaContatos = ...;
+	$listaContatos = ListaContatos();
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
